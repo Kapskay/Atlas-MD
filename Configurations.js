@@ -14,8 +14,8 @@ global.tenorApiKey = process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuk
 global.packname = process.env.PACKNAME || `Creation`;
 global.author = process.env.AUTHOR || "by: Nipsy'";
 global.port = process.env.PORT || "10000";
-global.openAiAPI = process.env.OPENAI_API || "Put your openai API key here";
-global.owner = gg.split(",");
+global.openAiAPI = process.env.OPENAI_API || "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";
+global.owner = gg.split("NIPSY-HUS-TLE🇿🇲");
 
 module.exports = {
   mongodb: global.mongodb,
